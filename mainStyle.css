@@ -1,0 +1,63 @@
+
+* {margin: 0;}
+
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+main {
+
+    background-color: #F2CAA7;
+
+}
+
+nav {
+
+    background-color: #D99E89;
+    
+}
+
+#Murphy {
+    padding: 5% 5% 5% 5%;
+}
+
+#AboutMe {
+    padding: 5% 5% 5% 5%;
+}
+
+.c{
+
+    height: 200px;
+    width: 100px;
+
+    position: absolute;
+
+    display: flex;
+    float: left;
+
+    margin: 2px;
+
+}
+
+#r {
+    background-color: #484F73;
+    z-index: 3;
+}
+
+#g {
+    background-color: #739CBF;
+    left: 100px;
+    z-index: 2;
+}
+
+#b {
+    background-color: #734A46;
+    left: 150px;
+    z-index: 1;
+}
+
+#TypingArea {
+    font-size:xx-large;
+    border-radius: 10px;
+}
