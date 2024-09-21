@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="author" content="Denis Michel">
+
+    <link rel="stylesheet" href="mainStyle.css">
+    <script src="MainPersonal.js"></script>
+    <script src="./UserActions.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="data/css/estilo.css"> -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
+        integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
+        integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+    <title>Personal home page</title>
+</head>
+
+<body>
+
+    <header class="container">
+
+        <div class="row">
+            <div class="col-12 col-lg-12 m-0 p-0">
+
+                <nav class="navbar navbar-expand-lg bg-body-#D99E89">
+                    <div class="container-fluid"> <!--d-md-flex d-block flex-row mx-md-auto mx-0-->
+                        <a class="navbar-brand" href="#">DM</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" id="btnHome" href="#">Home</a>
+                                <a class="nav-link" id="btnAboutMe" href="#AboutMe">About me</a>
+                                <a class="nav-link" id="btnAcademicEd" href="#">Academic education</a>
+                                <a class="nav-link disabled" aria-disabled="true">Experience</a>
+
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                                </form>
+
+                                <script>
+                                    main();
+                                    // let menuUserActions = new UserActions("btnAboutMe"); menuUserActions.logElement();
+                                    // menuUserActions = new UserActions("btnAcademicEd"); menuUserActions.logElement();
+                                </script>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main class="container">
+
+        <section id="Home">
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <h1 id="Murphy">"If there are two or more ways to do something and one of those results in a
+                        catastrophe,
+                        then someone will do it that way." (Edward Murphy, 1949)
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <section id="AboutMe">
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <h5>Discente do curso de graduação em Engenharia de Software.</h5>
+                    <br>
+                    <h5>1.2 Definição da disciplina
+                        <p>O Instituto de engenheiros eletricistas e eletrônicos (IEEE) [IEE17] elaborou
+                            a seguinte definição para engenharia de software:</p>
+
+                        <p>Engenharia de software: A aplicação de uma abordagem sistemática,
+                            disciplinada e quantificável no desenvolvimento, na operação e na
+                            manutenção de software; isto é, a aplicação de engenharia ao software. (Capítulo 1.2, pág.:
+                            3)</p>
+                    </h5>
+                    <h5>Fonte: Engenharia de software
+                        Roger S. Pressman; Bruce R. Maxim</h5>
+                </div>
+            </div>
+        </section>
+
+        <section id="AcademicEducation">
+
+        </section>
+
+        <!-- <script>
+                    
+               function httpGetAsync(url, callback) {
+                   const xmlHttp = new XMLHttpRequest();
+                   xmlHttp.onreadystatechange = function() {
+                       if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
+                       console.log(xmlHttp.responseText);
+                   }
+                   xmlHttp.open("GET", url, true); // true for asynchronous
+                   xmlHttp.send(null);
+               }
+
+               const url = "https://ipgeolocation.abstractapi.com/v1/?api_key=031c1683dfcc4723972265153751b37f&ip_address=170.150.75.196"
+
+               httpGetAsync(url)
+                  </script> -->
+
+        </div>
+        </div>
+
+
+
+    </main>
+
+    <footer class="container">
+
+    </footer>
+
+</body>
+
+</html>
